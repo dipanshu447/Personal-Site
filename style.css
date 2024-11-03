@@ -7,6 +7,7 @@ body {
     align-items: center;
     margin: 0;
     min-height: 100vh;
+    background-color: #643A71;
 }
 
 .prf {
@@ -14,38 +15,70 @@ body {
     height: 150px;
     border-radius: 80%;
     box-shadow: 0px 5px 10px 1px rgb(65, 64, 64,0.5);
-    margin-bottom: 20px;
     display: block;
-    margin: auto;
+    margin: -40px auto 0 auto;
 }
 
 .container{
     width: 40%;
     height: 100%;
-    background-color: #E8EBF7;
+    background-color: #E0E1E9;
     max-width: 600px;
     border-radius: 20px;
     text-align: center;
     font-family:"Roboto";
-    box-shadow: 0px 5px 10px 1px rgb(65, 64, 64,0.5);
+    margin: 20px;
+    box-shadow: 0px 5px 10px 1px rgb(31, 6, 39,0.5);
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29); */
     padding: 90px;
 }
 
+h1 {
+    font-weight: 800;
+    margin: 10px 0 0 0;
+    font-size: 30px;
+    color: #643A71;
+}
+
+/* h3{
+    font-weight: 600;
+    margin-top: 5px;
+} */
+
 .content {
-    text-align: justify;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
     font-size: large;
+    line-height: 1.5;
+    color: #414040;
+}
+
+
+.text {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #8B575C;
+    font-weight: 500;
+}
+
+.contain-link a {
+    margin: 0 5px;
+    transition: transform 0.5s ease;
+}
+
+.contain-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.contain-link a:hover img{
+    transform: scale(1.1);
 }
 
 .quote {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: -40px;
     font-size: small;
-}
-
-.contain-link {
-   padding: 10px;
-}
-
-.text {
-    margin: 5px;
+    font-style: italic;
+    color: #777;
 }
